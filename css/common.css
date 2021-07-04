@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .hr_hidden {position: absolute; clip: rect(0, 0, 0, 0); width: 1px; height: 1px; margin: -1px; overflow: hidden;}
-.wrap {display: flex; flex-direction: column; min-width: 1560px;}
+.wrap {min-width: 1560px;}
 
 /* header */
 .main_header {display: flex; justify-content: space-between; align-items: center; height: 60px; background-color: #5684ff; color: #fff;}
@@ -72,7 +72,7 @@ input {border: 1px solid #ddd;}
 /* charts */
 .pie_chart {position: relative; float: left; width: 280px; height: 280px; border-radius: 50%;}
 .pie_chart + .pie_chart {margin-left: 20px;}
-.pie_chart.single {background: conic-gradient(#eee 0% 87%, #fbfbfb 87% 100%);}
+.pie_chart.single {background: conic-gradient(#ccc 0% 87%, #eee 87% 100%);}
 .pie_chart.multi {background: conic-gradient(#28749f 0% 32%, #b58f4f 32% 77%, #a64e4a 77% 94%, #ebebeb 94% 100%);}
 .pie_chart::before {content: ''; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #fff; width: 230px; height: 230px; border-radius: 50%;}
 .pie_chart .center {position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 2rem; color: #444; text-align: center;}
