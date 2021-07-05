@@ -65,8 +65,9 @@
 .form_table th, td {border: 1px solid #ddd; padding: 10px 15px;}
 .form_table input {border: 1px solid #ddd;}
 .form_table input[type="text"] {width: 220px; height: 22px; border-radius: 3px;}
-.form_table input[type="file"] {position: absolute; opacity: 0;}
+.form_table input[type="file"] {position: absolute; width: 98px; opacity: 0;}
 .form_table input[type="file"] + .btn {height: 26px; line-height: 26px;}
+.form_table .file_foute {margin-left: 5px;}
 .form_table label > input {margin-right: 5px;}
 .form_table label + label {margin-left: 10px;}
 .form_table select {height: 26px; padding: 0 10px; border: 1px solid #ddd; border-radius: 3px;}

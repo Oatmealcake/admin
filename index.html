@@ -163,8 +163,11 @@
                         <option value="family">FAMILY</option>
                       </select>
                     </td>
-                    <th>파일첨부</th>
-                    <td><input type="file" name="avator" id="avator"><button type="button" class="btn">파일 첨부</button></td>
+                    <th><label for="upload">파일 첨부</label></th>
+                    <td>
+                      <input type="file" name="uploadFile" id="upload"><button type="button" class="btn">파일 첨부</button>
+                      <span class="file_foute">선택한 파일이 없습니다.</span>
+                    </td>
                   </tr>
                   <tr>
                     <th><label for="remarks_area">비고</label></th>
