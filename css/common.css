@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.hr_hidden {position: absolute; clip: rect(0, 0, 0, 0); width: 1px; height: 1px; margin: -1px; overflow: hidden;}
+.ir_hidden {position: absolute; clip: rect(0, 0, 0, 0); width: 1px; height: 1px; margin: -1px; overflow: hidden;}
 .wrap {min-width: 1560px;}
 
 /* header */
